@@ -1,0 +1,142 @@
+/**
+ * Posts
+ */
+
+.post{
+  header{
+    padding-top: .5 * $spacing-unit;
+    width: fluid(845px);
+    margin-left: fluid(212px);
+  }
+  h2.title{
+    @include font-size(h1);
+    text-align: center;
+    @include border;
+    @media only screen and (max-width: 800px) {
+        padding-top: $spacing-unit;
+    }
+  }
+  nav{
+    @extend %clearfix;
+  }
+}
+
+//extended img.post to .page so it has to be outside the nest above.
+.post img, .page img {
+    float: right;
+    width: 250px;
+    height: auto;
+    padding: 10px;
+    @media only screen and (max-width: 600px) {
+        width: 100%;
+        padding-top: $spacing-unit;
+        padding-bottom: $spacing-unit;
+        padding-left: 0;
+        padding-right: 0;
+        float: left;
+    }
+}
+
+.post-nav{
+  li{
+    @include font-size(h5);
+     font-family: $header-font-family;
+  display: inline-block;
+  padding-top: 3 * $spacing-unit;
+  float: left;
+  &:first-child{
+    width: percentage(325px / 842px);
+    padding-right: percentage(25px/842px);
+  }
+  &:nth-child(3) {
+    text-align: right;
+    float: right;
+    width: percentage(280px / 842px);
+        @media only screen and (max-width: 600px) {
+            width: inherit;
+        }
+    }
+  }
+}
+
+.leader-name{
+  float: right;
+}
+
+.post-summary{
+  @include border;
+}
+
+.post-content, .leader-bio, #disqus_thread {
+  max-width: 630px;
+  margin-left: fluid(322px);
+  margin-right: fluid(327px);
+  @media only screen and (max-width: 900px ) {
+      margin-left: fluid(215px);
+      margin-right: fluid(140px);
+  }
+  @media only screen and (max-width: 600px) {
+    margin-left: percentage(50px / 600px);
+    margin-right: percentage(50px / 600px);
+  }
+}
+
+.post-content {
+  ul li{
+    list-style: disc;
+  }
+  ul.no-bullet li {
+    list-style: none;
+  }
+  ol li{
+    list-style: decimal;
+  }
+}
+
+.reading-author{
+  float: right;
+}
+
+//FACEBOOK BUTTON
+
+#ogBtn:hover{
+color: $style-color;
+}
+
+#disqus_thread{
+  @include block-padding;
+}
+
+.leader-bio, .about-us-bio{
+  @include border;
+  @include block-padding;
+  @extend %clearfix;
+  h2{
+    display: inline;
+  }
+  img{
+    float: right;
+    width: 20%;
+    height: 20%;
+    border-radius: 10%;
+  }
+}
+
+a.leader-social {
+    padding-left: 5%;
+}
+
+//Used for post nav only //
+
+.desktop{
+    @media only screen and (max-width: 600px) {
+        display: none;
+    }
+}
+
+.mobile{
+    display: none;
+    @media only screen and (max-width: 600px) {
+        display: inline;
+    }
+}

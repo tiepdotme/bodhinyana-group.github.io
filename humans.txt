@@ -1,0 +1,135 @@
+---
+---
+/* TEAM */
+
+Group organiser: Martin Evans
+Twitter: @Bodhinyana
+Location: Hemel Hempstead, UK
+
+Website builder: Helen Calderon
+Twitter: @helen26
+Website: www.helencalderon.co.uk
+Location: Hemel Hempstead, UK
+
+
+
+
+
+/* SITE */
+
+Last updated: {{site.time | date: "%F"}}
+
+
+
+
+
+/* BUILT WITH */
+
+Jekyll including Liquid, YAML, Sass, kramdown
+Website: http://jekyllrb.com/
+
+
+
+
+
+/* SPECIAL THANKS TO */
+
+Amaravati Buddhist Monastery for providing us with a place to meet and supporting our practice.
+Website: http://www.amaravati.org/
+
+Michael Rose for sharing Jekyll repos on Github.
+Website: https://github.com/mmistakes/minimal-mistakes
+
+
+
+
+
+
+
+
+
+
+/* OTHER TECHNOLOGY WE USED AND CONTENT WE REFERENCED */
+
+HTML5 Boilerplate
+Website: https://html5boilerplate.com/
+
+Normalize
+Website: http://necolas.github.io/normalize.css/
+
+Modernizer
+Website: http://modernizr.com/
+
+Github-pages
+Website: https://pages.github.com/
+
+Sumblime Text 3
+Website: http://www.sublimetext.com/3
+
+Tuts+ Tutorials
+Website: http://code.tutsplus.com/courses/perfect-workflow-in-sublime-text-2
+
+Code School
+Website: https://www.codeschool.com/
+
+Stackoverflow
+Website: http://stackoverflow.com/
+
+W3 Schools
+Website: http://www.w3schools.com/
+
+Smashing Magazine
+Website: http://www.smashingmagazine.com/2013/03/08/tips-and-tricks-for-print-style-sheets/
+
+Favicon Cheat Sheet
+Website: https://github.com/audreyr/favicon-cheat-sheet
+
+MailChimp
+Website: http://mailchimp.com/
+
+Disqus
+Website: https://disqus.com/
+
+Formspree
+Website: http://formspree.io/
+
+RSS Feeds
+Website: https://github.com/snaptortoise/jekyll-rss-feeds
+
+SVG Converter
+Website: http://image.online-convert.com/convert-to-svg
+
+Font Awesome
+Website: http://fortawesome.github.io/Font-Awesome/
+
+
+                             ,'
+                        ,'         ,'
+                   .,.         ,'
+                 .`.`.`.  ,'       ,'
+                .`.`.`.`.   ,'  ,'
+                .`.`.`.`.
+                .`.`.`.`.  ,'     ,'
+                \\`.`.`.      ,'
+                 /\.,.   ,'     ,'
+                /
+               :
+               :
+              /
+             :
+             :
+             :
+            /
+           :
+           /
+          :
+     /   /  /        /
+    :   :  :        :   /  /
+   /:  /   :     /  :  :  :
+ /: : : / /    ::   :  :  :     /  / / /
+ :: / :: :    / :  /  /  / /   :  : : :
+/ ::  /  : : :  : :  :  : : : /   : : :
+ //  :  / / /  / /  /  / / / :   / / /
+: : :: : : :  : :  :  : : :  :  : : :  :
+""""""""""""""""""""""""""""""""""""""""
+

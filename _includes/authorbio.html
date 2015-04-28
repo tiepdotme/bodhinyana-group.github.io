@@ -1,0 +1,31 @@
+<aside class="{{include.class}}">
+    <h2>{{ leader.name }}</h2>
+    {% if leader.email %}
+    <a href="mailto:{{ leader.email }}" class="leader-social"><i class="fa fa-fw fa-envelope-o fa-2x"></i></a>
+    {% endif %}
+    {% if leader.twitter %}
+    <a href="http://twitter.com/{{ leader.twitter }}" class="leader-social" target="_blank"><i class="fa fa-fw fa-twitter fa-2x"></i></a>
+    {% endif %}
+    {% if leader.facebook %}
+    <a href="http://facebook.com/{{ leader.facebook }}" class="leader-social" target="_blank"><i class="fa fa-fw fa-facebook-square fa-2x"></i></a>
+    {% endif %}
+    {% if leader.googleplus %}<a href="http://plus.google.com/+{{ leader.googleplus }}" class="leader-social" target="_blank"><i class="fa fa-fw fa-google-plus-square fa-2x"></i></a>
+    {% endif %}
+    {% if leader.linkedin %}<a href="http://linkedin.com/in/{{ leader.linkedin }}" class="leader-social" target="_blank"><i class="fa fa-fw fa-linkedin-square fa-2x"></i></a>{% endif %}
+    {% if leader.instagram %}<a href="http://instagram.com/{{ leader.instagram }}" class="leader-social" target="_blank"><i class="fa fa-fw fa-instagram fa-2x"></i></a>
+    {% endif %}
+    {% if leader.tumblr %}<a href="http://{{ leader.tumblr }}.tumblr.com" class="leader-social" target="_blank"><i class="fa fa-fw fa-tumblr-square fa-2x"></i></a>
+    {% endif %}
+    {% if leader.pinterest %}<a href="http://www.pinterest.com/{{ leader.pinterest }}" class="leader-social" target="_blank"><i class="fa fa-fw fa-pinterest fa-2x"></i></a>{% endif %}
+    {% if leader.foursquare %}<a href="http://foursquare.com/{{ leader.foursquare }}" class="leader-social" target="_blank"><i class="fa fa-fw fa-foursquare fa-2x"></i></a>
+    {% endif %}
+    {% if leader.youtube %}<a href="https://youtube.com/user/{{ leader.youtube }}" class="leader-social" target="_blank"><i class="fa fa-fw fa-youtube-square fa-2x"></i></a>{% endif %}
+    {% if leader.soundcloud %}<a href="http://soundcloud.com/{{ leader.soundcloud }}" class="leader-social" target="_blank"><i class="fa fa-fw fa-soundcloud fa-2x"></i></a>{% endif %}
+    {% if leader.flickr %}<a href="http://www.flickr.com/{{ leader.flickr }}" class="leader-social" target="_blank"><i class="fa fa-fw fa-flickr fa-2x"></i></a>
+    {% endif %}
+
+    <p>{% if leader.avatar %} {% if leader.avatar contains 'http' %}
+        <img src="{{ leader.avatar }}" alt="{{ leader.name }} bio photo"> {% else %}
+        <img src="{{ site.baseurl }}/assets/{{ leader.avatar }}" alt="{{ leader.name }} bio photo"> {% endif %} {% endif %}{{ leader.bio }}</p>
+
+</aside>

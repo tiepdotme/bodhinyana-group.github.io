@@ -1,0 +1,77 @@
+.contact-form{
+    background-color: $brand-color;
+    color: $background-color;
+    @include block-padding;
+    @extend %clearfix;
+    p{
+    font-family: $header-font-family;
+    font-size: em(26px);
+    color: $text-color;
+    }
+    form{
+    width: fluid(525px);
+    float: left;
+    padding-left: percentage(124px/ 1280px);
+    @media only screen and (max-width: 600px) {
+        width: inherit;
+        padding-left: percentage(100px /600px);
+    }
+    }
+    label{
+        @media only screen and (max-width: 600px) {
+            padding-top: .25 * $spacing-unit;
+            padding-bottom: .25 * $spacing-unit;
+        }
+    }
+    ul{
+    list-style-type: none;
+    }
+    textarea{
+    margin-bottom: .75 * $spacing-unit;
+    }
+    input[type="submit"]{
+    @include button($brand-color, $background-color);
+    width: percentage(200px / 530px);
+    @media only screen and (max-width: 600px){
+        float: right;
+    }
+    }
+}
+
+input[name="_gotcha"]{
+    display: none;
+}
+
+.contact-info{
+    float: left;
+    width: fluid(412px); //412px
+    padding-left: percentage(215px / 1280px); //106px fix to content block
+    @media only screen and (max-width: 820px) {
+        padding-left: percentage(103px /1280px);
+        width: fluid(522px);
+    }
+    @media only screen and (max-width: 600px) {
+        width: inherit;
+        padding-left: percentage(100px /600px);
+    }
+    a{
+        color: $background-color;
+        position: relative;
+        text-decoration: none;
+        display: block;
+        padding-bottom: .5 * $spacing-unit;
+        padding-top: 1.5 * $spacing-unit;
+        &:hover{
+            text-decoration: underline;
+        }
+        &::after{
+            content: "";
+            width: 60%;
+            @include border("/assets/background-border.png");
+            height: 1px;
+            position: absolute;
+            left: 0;
+            bottom: -3px;
+        }
+    }
+}

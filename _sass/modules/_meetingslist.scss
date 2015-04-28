@@ -1,0 +1,44 @@
+.meetings-list, .reading-list {
+    @extend %clearfix;
+    @include block-padding;
+    @media only screen and (max-width: 800px) {
+        padding-top: 2 * $spacing-unit;
+    }
+    h1 {
+       text-align: center;
+       @media only screen and (max-width: 500px){
+       }
+    }
+    li{
+        margin-bottom: $spacing-unit;
+    }
+}
+
+.meetings-list{
+    margin-right: fluid(320px);
+    margin-left: fluid(320px);
+    @media only screen and (max-width: 800px) {
+        margin-left: percentage(67px / 800px);
+        margin-right: percentage(70px / 800px);
+
+    }
+}
+
+.reading-list{
+    width: fluid(845px);
+    margin-left: fluid(215px);
+    @media only screen and (max-width: 1000px) {
+        margin-left: fluid(108px);
+        margin-right: percentage(178px / 1000px);
+        width: inherit;
+    }
+    @media only screen and (max-width: 900px) {
+        margin-left: fluid(108px);
+        margin-right: percentage(82px / 900px);
+    }
+    @media only screen and (max-width: 800px) {
+
+
+    }
+}
+

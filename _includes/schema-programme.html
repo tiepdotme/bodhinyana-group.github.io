@@ -1,0 +1,75 @@
+{% for post in site.posts reversed limit:8 %}
+{% if post.date >= site.time %}
+<script type="application/ld+json">
+{
+"@context"  : "http://schema.org",
+    "@type"     : "Event",
+    "name"      : "{{ post.title }}",
+    "duration"  : "1H50M",
+    "startDate" : "{{ post.date | date: "%F 19:30" }}",
+"location"  : {
+    "@type"     : "Place",
+    "name"      : "Bodhinyana Hall, Amaravati Buddhist Monastery",
+    "address"   : {
+        "@type"             : "PostalAddress",
+        "addressLocality"   : "St Margarets, Great Gaddesden, Hemel Hempstead",
+        "addressRegion"     : "Hertfordshire",
+        "postalCode"        : "HP1 3BZ"
+    },
+    "sameAs"    : [
+        "http://www.amaravati.org",
+        "http://en.wikipedia.org/wiki/Amaravati_Buddhist_Monastery"
+        ]
+}
+{% if post.meeting_blurb %}
+,
+"description" : {{ post.meeting_blurb | jsonify }}
+{% endif %}
+{% if post.leader %}
+{% assign leader = site.data.leaders[post.leader] %}
+,
+"organizer" : {
+    "@type" : "Person",
+    "name" : "{{leader.name}}"
+{% if leader.avatar %}
+,
+{% if leader.avatar contains 'http' %}
+    "image" : "{{ leader.avatar }}"
+{% else %}
+    "image" : "{{ site.baseurl }}/assets/{{ leader.avatar }}"
+{% endif %}
+{% endif %}
+{% if leader.bio %}
+,
+    "description" : {{ leader.bio | jsonify }}
+{% endif %}
+{% if leader.email %}
+    ,
+    "email" : "{{ leader.email }}"
+{% endif %}
+}
+{% endif %}
+
+
+{% if post.content contains " " %}
+,
+{
+"workPerformed" :{
+    "@type"     : "Article"
+    "name"      : "{{ post.title }}"
+{% if page.reading_author %}
+    ,
+    "author"    : "{{post.reading_author}}"
+{% endif %}
+{% if page.reading_webpage %}
+    ,
+    "url"       : {{post.reading_webpage | jsonify }}
+{% endif %}
+
+{% endif %}
+}
+</script>
+{% endif %}
+{% endfor %}
+
+

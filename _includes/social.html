@@ -1,0 +1,29 @@
+<aside class="social-media">
+    <ul>
+    <li>
+        <a href="https://twitter.com/share" data-count="none" class="popup">
+            <i class="fa fa-twitter fa-3x"></i>
+        </a>
+    </li>
+    <li>
+        <div id="fb-root"></div><div><i id="ogBtn" class="fa fa-facebook fa-3x"></i>
+        </div>
+        <script>
+        document.getElementById('ogBtn').onclick = function() {
+            FB.ui({
+                app_id: '1083034281713204',
+                display: 'popup',
+                method: 'share_open_graph',
+                action_type: 'og.likes',
+                action_properties: JSON.stringify({
+                    object: '{{site.url | append: page.url}}',
+                })
+            }, function(response) {});
+        }
+        </script>
+    </li>
+    <li>
+        <a href="https://plus.google.com/share?url={{ page.url | prepend: site.baseurl | prepend: site.url }}?h1=en-GB" class="popup"><i class="fa fa-google-plus fa-3x"></i></a>
+    </li>
+    </ul>
+</aside>

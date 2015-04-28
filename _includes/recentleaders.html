@@ -1,0 +1,49 @@
+<section>
+<h2>Recent meeting leaders</h2>
+<p>These are some of the group members who have chosen to lead a meeting over the last three months.</p>
+{% comment %}First loop captures leaders from the last three months {% endcomment %}
+
+{% for post in site.posts %}
+
+{% capture postDateSeconds %}{{post.date | date: "%s"}}{% endcapture %} 
+{% capture siteTimeMinusTwelveWeeks %}{{site.time | date: "%s" | minus: 7260000}}
+{% endcapture %}
+
+{% if postDateSeconds >= siteTimeMinusTwelveWeeks and post.date <= site.time and post.leader != "Martin" %}
+
+{% capture leaders %}{{ leaders | append: post.leader | append: "," }}{% endcapture %}
+{% endif %}
+{% endfor %}
+
+{% comment %}Split the captured loop into its own array {% endcomment %}
+
+{% assign leaders_array = leaders | split: "," %}
+
+{% comment %} initialise a new array for dedupped list{% endcomment %}
+
+{% assign dedupped_leaders = "" %}
+
+{% comment %} if the leaders name is in the new array already remove it. Then add the name. This makes sure the name is on the list just once. {% endcomment %}
+
+{% for l in leaders_array %}
+
+{% if dedupped_leaders contains l %}
+{% assign leader_and_comma = l | append: "," %}
+{% capture dedupped_leaders %}{{dedupped_leaders | remove_first: leader_and_comma }}{% endcapture %}
+{% endif %}
+{% capture dedupped_leaders %}{{dedupped_leaders | append: l | append: ","}}{% endcapture %}
+{% endfor %}
+
+
+{% comment %}Split the captured loop into its own array {% endcomment %}
+
+{% assign dedupped_leaders_array = dedupped_leaders | split: "," %}
+
+{% for dedupped_leader in dedupped_leaders_array %}
+ 
+{% assign leader = site.data.leaders[dedupped_leader] %}
+{% if leader.bio %}
+{% include authorbio.html %}   
+{% endif %}
+{% endfor %}
+</section>

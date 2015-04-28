@@ -1,0 +1,42 @@
+---
+layout: null
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>{{ site.title | xml_escape }}</title>
+    <description>{{ site.description | xml_escape }}</description>
+    <language>en</language>
+    <copyright>Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0)</copyright>
+    <link>{{ site.url }}{{ site.baseurl }}/</link>
+    <atom:link href="{{ "/readingsfeed.xml" | prepend: site.baseurl | prepend: site.url }}" rel="self" type="application/rss+xml"/>
+    <pubDate>{{ site.time | date_to_rfc822 }}</pubDate>
+    <lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
+    <generator>Jekyll v{{ jekyll.version }}</generator>
+    <managingEditor>{{ site.data.leaders["Martin"].email}} ({{site.data.leaders["Martin"].name}}) </managingEditor>
+    <webMaster>helencalderon@gmail.com (Helen Calderon)</webMaster>
+    {% for post in site.posts %}
+    {% capture postDateSeconds %}{{post.date | date: "%s"}}{% endcapture %}
+    {% capture siteTimeSeconds %}{{site.time | date: "%s" | plus: 604800}}{% endcapture %}
+      {% if post.content contains " " and postDateSeconds <= siteTimeSeconds %}
+      <item>
+        <title>{{ post.title | xml_escape }}</title>
+        <description><![CDATA[{{ post.content | xml_escape }}]]></description>
+        <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
+        <link>{{ post.url | prepend: site.baseurl | prepend: site.url }}</link>
+        <guid isPermaLink="true">{{ post.url | prepend: site.baseurl | prepend: site.url }}</guid>
+        {% for tag in post.tags %}
+        <category>{{ tag | xml_escape }}</category>
+        {% endfor %}
+        {% for cat in post.categories %}
+        <category>{{ cat | xml_escape }}</category>
+        {% endfor %}
+        <dc:creator>{{post.reading_author | xml_escape }}</dc:creator>
+        {% for source in post.reading_webpage %}
+        <dc:source>{{post.reading_webpage | xml_escape }}</dc:source>
+        {% endfor %}
+      </item>
+      {% endif %}
+    {% endfor %}
+  </channel>
+</rss>

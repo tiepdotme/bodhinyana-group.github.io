@@ -1,0 +1,33 @@
+---
+layout: default
+---
+<div class="post">
+    <div class="container">
+        <header>
+            {% include blognav.html %}
+            <h5 class="leader-name">
+        {% if page.leader %}
+        {% assign leader = site.data.leaders[page.leader] %}
+        led by {{leader.name}} on
+        <time datetime="{{ page.date | date: "%F 19:30" }}">{{ page.date | date: "%-d %b %Y" }}</time>
+        {% endif %}
+        </h5>
+            <h2 class="title">{{ page.title }}</h2> {% if page.meeting_blurb %}
+            <p class="post-summary">{{ page.meeting_blurb }}</p>
+            {% endif %}
+        </header>
+        <article class="post-content">
+            {% if page.content contains " " %}{% if page.reading_author %}
+            <h5 class="reading-author"> by {% if page.reading_webpage %}
+            <a href="{{page.reading_webpage}}">{{page.reading_author}}</a>
+            {% else %}{{page.reading_author}}{% endif %}
+        </h5> {% endif %}{% endif %}
+        {{ content }}
+        </article>
+        {% include social.html %}
+        {% if page.allow_comments %}{% include disqus.html %}{% endif %}
+        {% if leader.bio %}{% include authorbio.html class="leader-bio" %}{% endif %}
+    </div>
+</div>
+{% include recentreadings.html title="Posts you may enjoy" %}
+{% include schema-post.html %}

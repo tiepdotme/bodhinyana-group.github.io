@@ -1,0 +1,27 @@
+<section class="meetings-list">
+<h1>{{include.title}}</h1>
+<ul>
+    {% for post in site.posts reversed limit:8 %}
+    {% if post.date >= site.time %}
+    <li id="{{post.date | date: "%Y-%m-%d-%H:%M"}}">
+        <p><time datetime="{{post.date | date: "%Y-%m-%d %H:%M"}}">{{ post.date | date: "%-d %B %Y" }}</time> &ndash;
+        {% if post.meeting_blurb contains " " or post.content contains " " %}
+        <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        {% else %}
+        	{{ post.title }}
+        {% endif %}
+        &ndash;
+		{% if post.leader %}
+		{% assign leader = site.data.leaders[post.leader] %}
+        {{leader.name}}
+		{% else %}
+		<a href="{{ site.baseurl | append: "/#contact-info" }}">Volunteer to lead this meeting</a>
+		{% endif %}
+
+        </p>
+    </li>
+    {% endif %}
+    {% endfor %}
+</ul>
+</section>
+{% include schema-programme.html %}

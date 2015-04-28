@@ -1,0 +1,112 @@
+/**
+ * Print style sheet - prints promotional poster on the homepage and printer-friendly readings.
+ */
+
+@media print {
+    #site-search, .sign-up, .contact-form, footer, .main nav, .recent-readings, .leader-bio, .social-media, #disqus_thread, #site-nav, .post-nav, .leader-name{
+        display: none;
+    }
+    body, a, h1, h2, h3, h4, h5, ul, li, p, article, blockquote{
+        color: #000 !important;
+        overflow: visible;
+        float: none !important;
+    }
+    p{
+        font-size: 12pt;
+        font-style: "Times New Roman", serif;
+    }
+    a{
+        text-decoration: none;
+    }
+    body{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        background-color: #fff;
+    }
+    @page{
+        size: 21cm 29.7cm;
+        margin-top: 3.125cm;
+        margin-bottom: 5cm;
+        margin-right: 3.125cm;
+        margin-left: 5cm;
+        }
+
+    .meetings-list{
+       @include border("/assets/style-border.png");
+    }
+
+    section.print-contactus{
+        ul {
+            position: absolute;
+            left: 0;
+            &:after {
+            content: "";
+            display: table;
+            clear: both;
+            }
+            @include border("/assets/style-border.png");
+            }
+    }
+    section.meetings-list, section.about-us, div.overlay{
+        margin: 0;
+        padding: 0;
+        width: inherit;
+    }
+    section.meetings-list{
+        margin-top: 2cm;
+    }
+    #qr-code{
+        position: absolute;
+        right: 1.7cm;
+        }
+    #scan-me{
+        position: absolute;
+        right: 0;
+        }
+    article a{
+        font-weight: bold;
+        }
+    article, .post-summary, .post-content, .post header {
+       margin-left: 0;
+       max-width: none;
+       width: inherit;
+       margin-right: 0;
+        & a[href^="http"]:after{
+            content: " (" attr(href) ") ";
+            }
+        }
+    #site-header{
+        margin: 0;
+        max-width: none;
+        padding-top: .25cm;
+        padding-right: 1cm;
+        padding-bottom: 0;
+    }
+    #site-name{
+    color: $brand-color !important;
+    }
+    #site-strapline{
+        bottom: -2cm;
+    }
+    .title{
+        text-align: left;
+        padding-top: 1cm;
+    }
+    .wrapper{
+        padding-top: 0;
+    }
+    h2{
+        page-break-after: avoid;
+    }
+    p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+    }
+}
+
+@media screen {
+    .print-contactus{
+    display: none;
+}
+}

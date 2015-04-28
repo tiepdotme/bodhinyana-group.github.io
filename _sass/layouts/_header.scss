@@ -1,0 +1,149 @@
+/**
+ * Site header
+ */
+
+#site-header{
+    @include border ("/assets/style-border.png");
+    position: relative;
+    padding-top: .5 * $spacing-unit;
+    @include xl-width;
+    @extend %clearfix;
+    @media only screen and (min-width: 600px) and (max-width: 800px) {
+        padding-bottom: 3em;
+    }
+}
+
+#site-name{
+    font-size: em(42px);
+    font-family: $header-font-family;
+    float: left;
+    padding-left: fluid(105px);
+    margin-top: .5 * $spacing-unit;
+    text-decoration: none;
+    @media screen and (max-width: 800px) {
+        padding-left: percentage(62px / 780px);
+    }
+    &:hover {
+        text-decoration: none;
+        color: $text-color;
+        }
+    @media only screen and (max-width: 600px) {
+        display: block;
+        padding: 0;
+        padding-top: 1.5 * $spacing-unit;
+        text-align: center;
+        float: none;
+    }
+}
+
+#site-strapline{
+position: absolute;
+bottom: em(-45px);
+padding-left: fluid(105px);
+@media only screen and (max-width: 1000px) {
+    width: 49%;
+    bottom: em(-65px);
+}
+@media only screen and (max-width: 800px) {
+    width: inherit;
+    @include font-size(h5);
+    padding-right: fluid(105px);
+}
+}
+
+#site-search{
+   width: fluid(325px);
+   padding-right: fluid(100px);
+   margin-bottom: $spacing-unit;
+   float: right;
+    @extend %clearfix;
+    @media screen and (max-width: 1000px) and (min-width: 800px) {
+        width: 26.4%;
+    }
+    @media screen and (max-width: 800px) {
+        padding-right: 0;
+        margin-bottom: 0;
+        float: right;
+        width: 40%;
+        margin-top: 4 * $spacing-unit;
+        margin-right: percentage(55px /780px);
+    }
+    @media only screen and (max-width: 777px){
+        margin-top: 2 * $spacing-unit;
+    }
+    @media only screen and (max-width: 600px) {
+        width: inherit;
+        margin-left: percentage(35px / 600px);
+    }
+}
+
+#site-nav{
+    width: fluid(800px);
+    float: right;
+    padding-right: fluid(110px);
+    text-align: right;
+    @extend %clearfix;
+    @media only screen and (max-width: 800px) {
+        margin-top: .5 * $spacing-unit;
+        text-decoration: none;
+        color: $background-color;
+        background-color: $brand-color;
+        border-radius: 5px;
+        position: absolute;
+        padding-right: 0;
+        top: 0;
+        right: 10px;
+        width: inherit;
+        margin-right: percentage(60px /780px);
+        .trigger   {
+        display: none;
+        }
+        &:hover .trigger{
+            display: block;
+            padding-bottom: .25 * $spacing-unit;
+        }
+        .menu-icon{
+            display: block;
+            text-decoration: none;
+            text-align: center;
+            color: $background-color;
+            padding: .25 * $spacing-unit;
+            @include font-size(h3);
+        }
+        .page-link{
+            display: block;
+            color: $background-color;
+            text-align: center;
+            padding: 5px 10px;
+             &:not(:first-child) {
+            margin-left: 0;
+            }
+            &:hover{
+            color: $style-color;
+            text-decoration: none;
+            }
+        }
+    }
+    @media only screen and (max-width: 600px) {
+        top: 25px;
+    }
+}
+
+.menu-icon {
+        display: none;
+}
+
+.page-link {
+        color: $brand-color;
+        font-size: em(20px);
+        line-height: $base-line-height;
+        text-decoration: none;
+        &:hover{
+            color: $style-color;
+            text-decoration: none;
+        }
+        // Gaps between nav items, but not on the first one
+        &:not(:first-child) {
+            margin-left: 20px;
+        }
+}

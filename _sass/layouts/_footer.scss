@@ -1,0 +1,104 @@
+/**
+ * Site footer
+ */
+
+ footer{
+    @include xl-width;
+    @include block-padding;
+    @media only screen and (max-width: 650px){
+        @include remove-padding;
+    }
+ }
+
+/* COMMUNITY IS THE AMARAVATI, ALBA AND LOTUS GROUP BAND OF LOGOS */
+
+.footer-links, .community{
+    @extend %clearfix;
+    li{
+    float: left;
+    }
+}
+
+.community{
+    @include border($url:"/assets/style-border.png");
+    padding-bottom: $spacing-unit;
+    padding-left: fluid(210px);
+    @media only screen and (max-width: 800px) {
+        padding-left: fluid(105px);
+    }
+    li{
+        width: fluid(255px);
+        text-align: center;
+        padding-right: percentage(22px / 210px);
+        @media only screen and (max-width: 650px){
+        width: inherit;
+        text-align: inherit;
+        float: none;
+        }
+    }
+    a{
+    height: percentage(150px/210px);
+    display: block;
+    @media only screen and (max-width: 650px){
+        color: $brand-color;
+        height: inherit;
+        display: inline;
+        text-decoration: none;
+        &:hover {
+            color: $style-color;
+            text-decoration: none;
+        }
+    }
+    }
+    p{
+    display: none;
+        @media only screen and (max-width: 650px){
+        display: block;
+    }
+    }
+    img{
+    @media only screen and (max-width: 650px) {
+        display: none;
+        }
+    }
+}
+
+a#amaravati-logo{
+    padding-top: $spacing-unit;
+}
+
+#lotus-logo img{
+ border-radius: 15%;
+}
+
+/*SECOND BAND OF LINKS IN THE FOOTER */
+
+.footer-links{
+    padding-left: fluid(105px);
+    padding-top: $spacing-unit;
+    li{
+        padding-right: 5%;
+        @media only screen and (max-width: 650px){
+            line-height: 150%;
+            margin-bottom: .625em;
+            float: none;
+            text-align: center;
+        }
+    }
+    a{
+    color: $brand-color;
+    text-decoration: none;
+    &:hover {
+        color: $style-color;
+        }
+    }
+}
+
+.licence {
+    fill: $brand-color;
+    &:hover {
+        fill: $style-color;
+    }
+}
+
+

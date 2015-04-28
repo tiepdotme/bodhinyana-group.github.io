@@ -1,0 +1,46 @@
+.sign-up{
+  @include block-padding;
+}
+.sign-up, .sign-up a{
+  background-color: $text-color;
+  color: $background-color;
+  @extend %clearfix;
+}
+
+#mc_embed_signup{
+  width: fluid(310px);
+  margin-left: percentage(25.671875px / 310px);
+  float: left;
+  input[type="submit"]{
+  @include button($text-color, $background-color);
+  width: percentage(150px / 310px);
+  }
+  input {
+  margin-bottom: $spacing-unit;
+  }
+  @media only screen and (max-width: 800px) {
+    width: 41%;
+  }
+  @media only screen and (max-width: 600px) {
+    width: inherit;
+    margin-left: percentage(67px / 800px);
+    margin-right: percentage(70px / 800px);
+    padding-right: percentage(16.81640625px / 205px);
+    padding-left: percentage(16.81640625px / 205px);
+  }
+}
+
+.sign-up a{
+  width: fluid(210px);
+  padding-left: percentage(26px / 210px); //205px
+  margin-left: fluid(10px);
+  float: left;
+  text-align: center;
+  margin-top: 5 * $spacing-unit; //105px
+  @media only screen and (max-width: 800px) {
+    margin-left: 0;
+    margin-top: 2 * $spacing-unit;
+    min-width: 200px;
+    padding-left: 0;
+  }
+}

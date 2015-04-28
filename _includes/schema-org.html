@@ -1,0 +1,20 @@
+<script type="application/ld+json">
+{
+"@context"  : "http://schema.org",
+"@type"     : "Organization",
+"name"      : "Bodhinyana Group",
+"url"       : "{{ site.url }}{{ site.baseurl }}",
+"sameAs"    : "https://twitter.com/Bodhinyana",
+"address"   : {
+        "@type"             : "PostalAddress",
+        "addressLocality"   : "St Margarets, Great Gaddesden, Hemel Hempstead",
+        "addressRegion"     : "Hertfordshire",
+        "postalCode"        : "HP1 3BZ"
+    },
+"email"     : "{{ site.data.leaders["Martin"].email}}",
+"image"     : "/assets/med-hall.jpg",
+"logo"      : "{{site.url}}{{site.baseurl | append: "/assets/bodhinyana-group.gif"}}",
+"description"   : "{{site.description}}",
+"telephone" : "01442 409 844"
+}
+</script>

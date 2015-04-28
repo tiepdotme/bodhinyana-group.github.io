@@ -1,0 +1,18 @@
+/* SOCIAL MEDIA FOR UNDER POSTS */
+
+.social-media{
+    @include border;
+    @extend .post-content;
+    @extend %clearfix;
+    @include block-padding;
+    li {
+        display: inline-block;
+        width: 20%;
+        margin-left: 5%;
+        margin-right: 5%;
+        text-align: center;
+        &:not(:last-child) {
+            padding-right: 10px;
+        }
+    }
+}

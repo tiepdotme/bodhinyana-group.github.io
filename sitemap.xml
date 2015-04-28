@@ -1,0 +1,49 @@
+---
+layout: null
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+      {% for post in site.posts %} {% capture postDateSeconds %}{{post.date | date: "%s"}}{% endcapture %} {% capture siteTimeMinusFourWeeks %}{{site.time | date: "%s" | minus: 2420000}}{% endcapture %}
+        {% if post.title %}
+    <url>
+        <loc>{{ post.url | prepend: site.url }}</loc>
+        {% if postDateSeconds >= siteTimeMinusFourWeeks %}
+        <changefreq>weekly</changefreq>
+        {% else %}
+        <changefreq>yearly</changefreq>
+        {% endif %}
+        <priority>0.5</priority>
+    </url>
+    {% endif %}
+    {% endfor %}
+<url>
+        <loc>http://www.bodhinyanagroup.org.uk/</loc>
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>http://www.bodhinyanagroup.org.uk/aboutus/</loc>
+        <changefreq>weekly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>http://www.bodhinyanagroup.org.uk/programme/</loc>
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>http://www.bodhinyanagroup.org.uk/faq/</loc>
+        <changefreq>yearly</changefreq>
+        <priority>0.25</priority>
+    </url>
+    <url>
+        <loc>http://www.bodhinyanagroup.org.uk/readings/</loc>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>http://www.bodhinyanagroup.org.uk/cookies/</loc>
+        <changefreq>weekly</changefreq>
+        <priority>0.1</priority>
+    </url>
+</urlset>

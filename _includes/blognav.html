@@ -1,0 +1,103 @@
+<nav class="post-nav">
+<ul>
+{% comment %} Generates PREVIOUS POST if there is one {% endcomment %}
+
+{% unless page.previous == nil %}
+    {% if page.previous.content contains " " or page.previous.meeting_blurb %}
+    <li>
+    <i class="fa fa-chevron-left fa-fw"></i>
+    <a class="desktop" href="{{page.previous["url"]}}">{{page.previous["title"]}}</a>
+    <a class="mobile" href="{{page.previous["url"]}}">prev</a>
+    </li>
+    {% else %}
+
+{% comment %}First find out where we are in the posts array{% endcomment %}
+
+        {% for post in site.posts %}
+            {% if post.title == page.title %}
+            {% assign post_index = forloop.index %}
+            {% endif %}
+        {% endfor %}
+
+{% comment %}Next go through any earlier posts and find the one with content{% endcomment %}
+
+        {% for post_two in site.posts %}
+            {% if forloop.index > post_index %}
+                {% if post_two.content contains " " or post_two.keep_blurb_after_meeting %}
+
+{% comment %}Flag the previous post with content {% endcomment %}
+
+                {% capture previous_with_content %}{{previous_with_content | plus: "1"}}{% endcapture %}
+
+{% comment %}Write out the previous post link {% endcomment %}
+
+                    {% if previous_with_content == '1' %}
+                    <li>
+                    <i class="fa fa-chevron-left fa-fw"></i>
+                        <a class="desktop" href="{{post_two.url}}"> {{post_two.title}}</a>
+                        <a class="mobile" href="{{post_two.url}}"> prev</a>
+                    </li>
+                    {% endif %}
+                {% endif %}
+            {% endif %}
+        {% endfor %}
+    {% endif %}
+{% endunless %}
+
+{% comment %} ARCHIVE OR PROGRAMME {% endcomment %}
+
+<li>
+    {% if page.date < site.time %}
+        <a class="desktop" href="{{ "/readings/" | prepend: site.baseurl }} ">see all readings</a>
+        <a class="mobile" href="{{ "/readings/" | prepend: site.baseurl }} ">all readings</a>
+    {% else %}
+        <a href="{{ "/programme/" | prepend: site.baseurl }} ">current programme</a>
+    {% endif %}
+</li>
+
+
+{% comment %} This generates the NEXT POST if there is one {% endcomment %}
+
+{% unless page.next == nil or page.next['title'] contains 'tbc' or page.next['title'] contains 'TBC' or page.next['title'] contains 'Tbc' %}
+    {% if page.next.content contains " " or page.next.meeting_blurb %}
+    <li>
+    <a class="desktop" href="{{page.next["url"]}}">{{page.next["title"]}}</a>
+    <a class="mobile" href="{{page.next["url"]}}">next</a>
+    <i class="fa fa-chevron-right fa-fw"></i>
+    </li>
+    {% else %}
+
+{% comment %}First find out where we are in the posts array{% endcomment %}
+
+        {% for p in site.posts reversed %}
+            {% if p.title == page.title %}
+            {% assign post_index = forloop.index %}
+            {% endif %}
+        {% endfor %}
+
+{% comment %}Next go through any later posts and find the one with content{% endcomment %}
+
+        {% for post_three in site.posts reversed %}
+            {% if forloop.index > post_index %}
+                {% if post_three.content contains " " or post_three.keep_blurb_after_meeting %}
+
+{% comment %}Capture the next post with content {% endcomment %}
+
+                {% capture next_with_content %}{{next_with_content | plus: "1"}}{% endcapture %}
+
+{% comment %}Write out the next post link {% endcomment %}
+
+                    {% if next_with_content == '1' %}
+                    <li>
+                    <a class="desktop" href="{{post_three.url}}">{{post_three.title}} </a>
+                    <a class="mobile" href="{{page.next["url"]}}">next</a>
+                    <i class="fa fa-chevron-right fa-fw"></i>
+                    </li>
+                    {% endif %}
+                {% endif %}
+            {% endif %}
+        {% endfor %}
+    {% endif %}
+{% endunless %}
+</ul>
+</nav>

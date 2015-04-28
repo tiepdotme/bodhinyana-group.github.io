@@ -1,0 +1,37 @@
+<section class="recent-readings">
+<div class="container">
+  {% if include.title %}
+  <h2> {{include.title}}</h2> {% endif %}
+  <ul class="recent-readings col col3">
+      {% for post in site.posts %}
+      {% if post.content contains " " and post.date <= site.time %}
+      {% capture count %}{{ count | plus: '1' }}{% endcapture %}
+      {% if count == '1' or count == '2' %}
+    <li>
+      <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        {% if post.reading_author %}<p>{{ post.reading_author }}</p>{% endif %}
+        <time datetime="{{post.date | date: " %Y-%m-%d %H:%M "}}">{{ post.date | date: "%-d %B %Y" }}</time>
+    </li>
+    {% endif %}
+    {% endif %}
+    {% endfor %}
+  </ul>
+  <ul class="recent-readings col col3">
+      {% for post in site.posts %}
+      {% if post.content contains " " and post.date <= site.time %}
+      {% capture counttwo %}{{ counttwo | plus: '1' }}{% endcapture %}
+      {% if counttwo == '3' or counttwo == '4' %}
+      <li>
+        <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+          {% if post.reading_author %}<p>{{ post.reading_author }}</p>{% endif %}
+          <time datetime="{{post.date | date: " %Y-%m-%d %H:%M "}}">{{ post.date | date: "%-d %B %Y" }}</time>
+      </li>
+      {% endif %}
+      {% endif %}
+      {% endfor %}
+  </ul>
+  <a id="all-readings" href="{{"/readings/" | prepend: site.baseurl}}">all readings<i class="fa fa-chevron-right fa-fw"></i></a>
+  </div>
+</section>
+
+

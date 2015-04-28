@@ -1,0 +1,20 @@
+<header id="site-header">
+    <a href="{{site.url}}" id="site-name">Bodhinyana Group</a>
+      {% include search.html %}
+    <nav id="site-nav">
+        <a href="#" class="menu-icon">Menu <i class="fa fa-bars fa-fw"></i>
+        </a>
+        <div class="trigger">
+            {% assign pages = site.pages | sort: "name" %}
+            {% for page in pages %}
+                {% if page.nav_bar %}
+                <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">
+                {{ page.title }}</a>
+                {% endif %}
+            {% endfor %}
+        </div>
+    </nav>
+
+    <h4 id="site-strapline">meets <time datetime="19:30">7:30pm</time> Wednesdays,  at Amaravati Buddhist Monastery, Hemel Hempstead, HP1 3BZ
+    </h4>
+</header>

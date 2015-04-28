@@ -1,0 +1,149 @@
+/*Readings section */
+
+
+//keeping this block for ease of reference -- from meetingslist scss --
+//.meetings-list, .reading-list {
+  //  @extend %clearfix;
+//    margin-left: fluid(320px);
+  //  margin-bottom: em(32px);
+    //width: fluid(758px);
+  //  h1 {
+   //    text-align: center;
+ //   }
+  //  li{
+   //     margin-bottom: $spacing-unit;
+  //  }
+// }
+
+.recent-readings{
+    @include block-padding;
+    position: relative;
+    @extend %clearfix;
+    background-color: $style-color;
+    color: $background-color;
+    font-family: $base-font-family;
+    font-size: em(16px);
+    @media only screen and (max-width: 800px) {
+    @include remove-padding;
+    padding-top: .1em; // fix white band that appears where print-style block is.
+    }
+    a{
+        color: $background-color;
+        &:hover{
+        color: $background-color;
+        }
+    }
+    h2{
+        @include font-size(h1);
+        width: fluid(218px);
+        float: left;
+        font-family: $base-font-family;
+        margin-left: fluid(105px);
+        @media only screen and (min-width: 850px) and (max-width: 1000px) {
+            @include font-size(h2);
+        }
+        @media only screen and (max-width: 850px) {
+            width: 100%;
+        }
+        @media only screen and (max-width: 600px) {
+            margin-left: 0;
+            float: none;
+            text-align: center;
+            font-size: em(40px);
+
+        }
+    }
+    time{
+        display: block;
+        margin-top: .5 * $spacing-unit;
+        margin-bottom: .5 * $spacing-unit;
+
+    }
+    ul{
+     border-bottom: 0;
+    }
+    li{
+        margin-bottom: 1.5 * $spacing-unit;
+        padding-bottom: .5 * $spacing-unit;
+        position: relative;
+        &:after{
+            content: "";
+            width: 60%;
+            @include border("/assets/background-border.png");
+            height: 1px;
+            position: absolute;
+            bottom: 5px;
+        }
+    }
+}
+
+.col3{
+        width: fluid(215px);
+        padding-left: percentage(16.81640625px / 205px); //105px
+        float: left;
+        @media only screen and (max-width: 850px) {
+            width: fluid(318px);
+        }
+        @media only screen and (max-width: 600px) {
+        width: inherit;
+        margin-left: percentage(67px / 800px);
+        margin-right: percentage(70px / 800px);
+        padding-right: percentage(16.81640625px / 205px);
+
+    }
+}
+
+#all-readings{
+    text-decoration: none;
+    font-size: em(20px);
+    font-family: $header-font-family;
+    padding-left: fluid(110px);
+    float: left;
+    margin-top: $spacing-unit * 8;
+    @media only screen and (max-width: 850px) {
+    margin-top: $spacing-unit * 6;
+        }
+    @media only screen and (max-width: 600px) {
+        margin-top: 0;
+        float: right;
+        margin-bottom: $spacing-unit;
+        margin-right: percentage(37px /600px);
+    }
+}
+
+h1#readings-archive{
+    text-align: center;
+    padding-top: .5 * $spacing-unit;
+    @media only screen and (max-width: 800px) {
+        padding-top: $spacing-unit;
+    }
+}
+.reading-list{
+    a, p, h2{
+        display: inline;
+        font-family: $base-font-family;
+        font-size: em(16px);
+    }
+    time{
+        float: right;
+        @media screen and (max-width: 800px) {
+            display: none;
+
+        }
+    }
+}
+
+p.post-year{
+    display: none;
+    @media only screen and (max-width: 800px) {
+        text-align: center;
+        display: block;
+        @include font-size(h3);
+        padding-top: .5 * $spacing-unit;
+        padding-bottom: .5 * $spacing-unit;
+    }
+}
+
+
+
+

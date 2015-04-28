@@ -1,0 +1,6 @@
+---
+layout: post
+date: 2015-04-29 19:30:00
+title: Practice
+leader: Nevyn
+---

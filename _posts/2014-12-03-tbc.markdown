@@ -1,0 +1,9 @@
+---
+layout: post
+title: Theme to be confirmed
+date: 2014-12-03 19:30:00
+leader: Nevyn
+meeting_blurb:
+keep_blurb_after_meeting: no
+allow_comments: no
+---

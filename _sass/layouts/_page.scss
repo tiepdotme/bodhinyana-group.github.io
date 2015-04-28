@@ -1,0 +1,32 @@
+.page{
+    @extend .post-content;
+    @include block-padding;
+    @media only screen and (max-width: 800px) {
+        padding-top: 2 * $spacing-unit;
+    }
+}
+
+#gmap{
+  float: right;
+  padding: $spacing-unit;
+  height: 300px;
+  width: 300px;
+  @media only screen and (max-width: 600px) {
+    display: none;
+  }
+}
+
+#gmap-mobile{
+    display: none;
+    @media only screen and (max-width: 600px) {
+        display: block;
+        @include button($style-color, $background-color);
+        padding: $spacing-unit;
+        text-decoration: none;
+        width: 150px;
+        margin: $spacing-unit auto;
+        &:hover{
+            border-color: $style-color;
+        }
+  }
+}
