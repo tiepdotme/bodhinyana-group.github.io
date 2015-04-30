@@ -8,6 +8,7 @@
   border-bottom: $width solid transparent;
   -webkit-border-image: url($url) 100 1 stretch;
   border-image: url($url) 100 1 stretch;
+  -o-border-image: url($url) 100 1 stretch;
   padding-bottom: em(16px);
  }
 
