@@ -8,6 +8,8 @@
   text-rendering: auto; // optimizelegibility throws things off #1094
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  -webkit-transform: translate(0, 0); // ensures no half-pixel rendering in firefox
+  -ms-transform: translate(0, 0); // ensures no half-pixel rendering in firefox
   transform: translate(0, 0); // ensures no half-pixel rendering in firefox
 
 }
