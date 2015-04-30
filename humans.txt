@@ -102,6 +102,13 @@ Website: http://image.online-convert.com/convert-to-svg
 Font Awesome
 Website: http://fortawesome.github.io/Font-Awesome/
 
+Grunt
+Website: http://gruntjs.com/
+
+Compress HTML in Jekyll
+http://jch.penibelst.de/
+
+
 
                              ,'
                         ,'         ,'
