@@ -3,8 +3,10 @@
   "author": "Helen Calderon <helencalderon@gmail.com>",
   "homepage": "http:bodhinyanagroup.org.uk",
   "version": "0.1.0",
+  "description": "Buddhist meditation group outside London. Events schedule and readings.",
   "devDependencies": {
     "grunt": "~0.4.5",
+    "grunt-contrib-htmlmin": "^0.4.0",
     "grunt-contrib-imagemin": "^0.9.3",
     "grunt-jekyll": "^0.4.2"
   }
