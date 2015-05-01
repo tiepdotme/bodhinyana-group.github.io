@@ -3,10 +3,10 @@ layout: post
 title: On pilgrimage to Bodh Gaya
 date: 2015-05-27 19:30:00
 leader: Martin
-meeting_blurb: On pilgrimage to Bodh Gaya.
+meeting_blurb:
 reading_webpage: 
 ---
->In search of what is skilful, seeking that state of perfect peace, while walking on a tour through Magadha I arrived at Urvela.  There I found some beautiful countryside, a lovely forest grove, a clear flowing river with a delightful ford and a village nearby for support.  So I sat down there thinking, ‘this is the right place for exertion.’   Majhima Nikhaya, 26.
+>In search of what is skilful, seeking that state of perfect peace, while walking on a tour through Magadha I arrived at Urvela.  There I found some beautiful countryside, a lovely forest grove, a clear flowing river with a delightful ford and a village nearby for support.  So I sat down there thinking, ‘this is the right place for exertion.’   The Buddha, Majhima Nikhaya, 26.
 
 ##On pilgrimage to Bodh Gaya##
 
@@ -16,7 +16,7 @@ He was returning to Bodh Gaya where he was building a meditation centre.  He tol
 
 After such a build up, all the conditions for disappointment had been created.  First, we called at the Mahabodhi Resthouse, where there was no room at the Inn, although I had booked ahead.  Then we tried the Burmese Temple, only to be turned away again.  
 
-##‘Please save lives of my fishes’##
+##Saving the lives of fishes##
 
 Having installed ourselves in an expensive hotel, we went to explore the town and I didn’t feel particularly inspired by what I saw.  Rows of market stalls with sellers insisting we buy trinkets we didn’t want, and dozens of beggars, many with missing limbs, dragging themselves after us in the hope of a few coins.  I saw one woman who had to drop her bag of bananas and run for her life into a shop, after stopping to hand one or two out to some beggars, such was the fight over them.  It was like watching monkeys fight over a bag of nuts.     
 
