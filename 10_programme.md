@@ -8,5 +8,6 @@ redirect_from: /programme.html
 ---
 
 {% include meetinglist.html title="Programme" %}
+{% include directions.html class="page" %}
 {% include subscribe.html %} 
 
