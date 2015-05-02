@@ -5,6 +5,7 @@ date: 2015-05-27 19:30:00
 leader: Martin
 meeting_blurb:
 reading_webpage: 
+reading_snippet: Wherever you sit, wherever you stand, walk or lie down, you have to watch the grasping mind and let it go.  Then you are practising like the Buddha.   You must follow this path of practice everywhere, all the time.  There is no special place to practise, no special time to practise. 
 ---
 >In search of what is skilful, seeking that state of perfect peace, while walking on a tour through Magadha I arrived at Urvela.  There I found some beautiful countryside, a lovely forest grove, a clear flowing river with a delightful ford and a village nearby for support.  So I sat down there thinking, ‘this is the right place for exertion.’   The Buddha, Majhima Nikhaya, 26.
 
