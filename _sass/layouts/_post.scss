@@ -107,6 +107,13 @@ color: $style-color;
   @include block-padding;
 }
 
+#print{
+    @include font-size(h5);
+    float: right;
+    padding-top: 4 * $spacing-unit;
+    clear: both;
+}
+
 .leader-bio, .about-us-bio{
   @include border;
   @include block-padding;
