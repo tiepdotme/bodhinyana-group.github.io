@@ -78,15 +78,13 @@ addLoadEvent(prepareLinks);
             parent.insertBefore(newElement,targetElement.nextSibling);
             }
     }
-
-
-
 function createPrintLink(){
-    if(!document.createElement) return false;
-    if(!document.createTextNode) return false;
-    if(!document.getElementById) return false;
-    if(!document.getElementsByClassName("title")) return false;
+    if (!document.createElement) return false;
+    if (!document.createTextNode) return false;
+    if (!document.getElementById) return false;
+    if (document.getElementsByClassName("post-content").length === 0) return false;
     if (!document.getElementsByTagName) return false;
+    if (!window.print) return false;
     var anchor = document.createElement("a");
     anchor.setAttribute("id", "print");
     var faPrint  = document.createElement("i");
@@ -94,11 +92,10 @@ function createPrintLink(){
     anchor.appendChild(faPrint);
     var text = document.createTextNode("print this reading");
     anchor.appendChild(text);
-    anchor.onclick = function(){window.print(); return false;}
+    anchor.href="#";
+    anchor.onclick = function(){window.print(); return false;};
     var title = document.getElementsByClassName("leader-name")[0];
     insertAfter(anchor, title);
 }
 
 addLoadEvent(createPrintLink);
-
-
