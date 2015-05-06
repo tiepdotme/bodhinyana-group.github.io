@@ -112,6 +112,18 @@ color: $style-color;
     float: right;
     padding-top: 4 * $spacing-unit;
     clear: both;
+    padding-left: 2%;
+    @media only screen and (max-width: 600px) {
+        display: block;
+        @include button($brand-color, $background-color);
+        padding: $spacing-unit;
+        text-decoration: none;
+        width: 130px;
+        margin: $spacing-unit 33% $spacing-unit 33%;
+        &:hover{
+            border-color: $brand-color;
+        }
+    }
 }
 
 .leader-bio, .about-us-bio{
