@@ -1,16 +1,3 @@
-    function addLoadEvent(func) {
-        var oldonload = window.onload;
-        if (typeof window.onload != "function") {
-            window.onload = func;
-        } else {
-            window.onload = function() {
-                oldonload();
-                func();
-            }
-        }
-    }
-
-
 /* Courtesy of X Thomas Frost http://www.xtf.dk/2011/08/center-new-popup-window-even-on.html */
 
 function popUp(url, w, h) {
