@@ -11,3 +11,5 @@ function addLoadEvent(func){
 		}
 	}
 }
+
+    addLoadEvent(hideOld);

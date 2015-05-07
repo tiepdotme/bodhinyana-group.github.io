@@ -16,14 +16,16 @@ layout: default
             <p class="post-summary">{{ page.meeting_blurb }}</p>
             {% endif %}
         </header>
+        {% if page.content contains " " %}
         <article class="post-content">
-            {% if page.content contains " " %}{% if page.reading_author %}
+            {% if page.reading_author %}
             <h5 class="reading-author"> by {% if page.reading_webpage %}
             <a href="{{page.reading_webpage}}">{{page.reading_author}}</a>
             {% else %}{{page.reading_author}}{% endif %}
-        </h5> {% endif %}{% endif %}
+        </h5> {% endif %}
         {{ content }}
         </article>
+        {% endif %}
         {% include social.html %}
         {% if page.allow_comments %}{% include disqus.html %}{% endif %}
         {% if leader.bio %}{% include authorbio.html class="leader-bio" %}{% endif %}
