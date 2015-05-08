@@ -13,9 +13,7 @@ $text-color: #6B5853;
 
 $text-color-light: lighten($text-color, 40%);
 $text-color-dark: darken($text-color, 25%);
-$susy: (columns: 4, global-box-sizing: border-box,
-    debug: (image: show)
-    );
+
 
 
 
