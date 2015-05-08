@@ -1,12 +1,12 @@
 .about-us {
     background: url("/assets/cusions.jpg");
     background-size: cover;
+    padding-top: 6 * $spacing-unit;
     background-repeat: no-repeat;
-    @include block-padding;
+    padding-bottom: 1.5 * $spacing-unit;
     @extend %clearfix;
     @media only screen and (max-width: 1000px) {
     padding-bottom: 0;
-    padding-top: 4 * $spacing-unit;
     }
     h2{
     @media only screen and ( max-width: 800px) {
