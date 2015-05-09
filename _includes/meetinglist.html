@@ -3,7 +3,7 @@
 <ul>
     {% for post in site.posts reversed limit:8 %}
     {% if post.date >= site.time %}
-    <li id="{{post.date | date: "%Y-%m-%d-%H:%M"}}">
+    <li id="{{post.date | date_to_rfc822 }}">
         <p><time datetime="{{post.date | date: "%Y-%m-%d %H:%M"}}">{{ post.date | date: "%-d %B %Y" }}</time> &ndash;
         {% if post.meeting_blurb contains " " or post.content contains " " %}
         <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>

@@ -60,6 +60,6 @@ module.exports = function(grunt) {
 
     // 4. Where we tell Grunt what to do when we type "grunt" into the terminal.
     grunt.registerTask('images', ['clean:images', 'imagemin']);
-    grunt.registerTask('javascript', ['clean:scripts', 'concat', 'jshint', 'uglify']);
+    grunt.registerTask('javascript', ['clean:scripts', 'concat', 'uglify']);
     grunt.registerTask('jsdev', ['clean:scripts', 'concat', 'jshint']);
 };
