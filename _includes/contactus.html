@@ -13,27 +13,26 @@
     <form method="POST" action="http://formspree.io/martin.evans350@ntlworld.com" onsubmit="">
         <ul>
             <li>
-                <label>Name</label>
-                <input type="text" name="name" />
+                <label for="name">Name</label>
+                <input id="name" type="text" name="name" />
             </li>
             <li>
-                <label>Email</label>
-                <input type="email" name="email" required/>
+                <label for="email">Email</label>
+                <input id="email" type="email" name="email" required/>
             </li>
             <li>
-                <label>
-                    Telephone (Optional)</label>
-                <input type="tel" name="telephone" />
+                <label for="telephone">Telephone (Optional)</label>
+                <input id="telephone" type="tel" name="telephone" />
             </li>
             <li>
-                <label>What would you like to talk to us about?</label>
-                <textarea name="message" rows="10"></textarea>
+                <label for="message" >What would you like to talk to us about?</label>
+                <textarea id="message" name="message" rows="10"></textarea>
             </li>
             <li>
                 <input type="hidden" name="_subject" value="New submission via the Bodhinyana group contact form" />
                 <input type="text" name="_gotcha" />
                 <input type="hidden" name="_next" value="http://www.bodhinyanagroup.org.uk/thank-you/" />
-                <input type="submit" value="Send" />
+                <input type="submit" name="send" value="Send" />
             </li>
         </ul>
     </form>
