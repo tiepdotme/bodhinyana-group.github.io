@@ -1,11 +1,11 @@
-<section>
+<section role="region" aria-label="some of the biographies of those who have lead a meeting in the last three months">
 <h2>Recent meeting leaders</h2>
 <p>These are some of the group members who have chosen to lead a meeting over the last three months.</p>
 {% comment %}First loop captures leaders from the last three months {% endcomment %}
 
 {% for post in site.posts %}
 
-{% capture postDateSeconds %}{{post.date | date: "%s"}}{% endcapture %} 
+{% capture postDateSeconds %}{{post.date | date: "%s"}}{% endcapture %}
 {% capture siteTimeMinusTwelveWeeks %}{{site.time | date: "%s" | minus: 7260000}}
 {% endcapture %}
 
@@ -40,10 +40,10 @@
 {% assign dedupped_leaders_array = dedupped_leaders | split: "," %}
 
 {% for dedupped_leader in dedupped_leaders_array %}
- 
+
 {% assign leader = site.data.leaders[dedupped_leader] %}
 {% if leader.bio %}
-{% include authorbio.html %}   
+{% include authorbio.html %}
 {% endif %}
 {% endfor %}
 </section>

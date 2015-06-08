@@ -1,11 +1,11 @@
 <nav class="post-nav">
-<ul>
+<ul role="navigation" aria-label="to previous and next posts, ">
 {% comment %} Generates PREVIOUS POST if there is one {% endcomment %}
 
 {% unless page.previous == nil %}
     {% if page.previous.content contains " " or page.previous.meeting_blurb %}
     <li>
-    <i class="fa fa-chevron-left fa-fw"></i>
+    <i class="fa fa-chevron-left fa-fw"><span class="screen-reader-text">Previous post</span></i>
     <a class="desktop" href="{{page.previous["url"]}}">{{page.previous["title"]}}</a>
     <a class="mobile" href="{{page.previous["url"]}}">prev</a>
     </li>
@@ -33,7 +33,7 @@
 
                     {% if previous_with_content == '1' %}
                     <li>
-                    <i class="fa fa-chevron-left fa-fw"></i>
+                    <i class="fa fa-chevron-left fa-fw"><span class="screen-reader-text">Previous post</span></i>
                         <a class="desktop" href="{{post_two.url}}"> {{post_two.title}}</a>
                         <a class="mobile" href="{{post_two.url}}"> prev</a>
                     </li>
@@ -63,7 +63,7 @@
     <li>
     <a class="desktop" href="{{page.next["url"]}}">{{page.next["title"]}}</a>
     <a class="mobile" href="{{page.next["url"]}}">next</a>
-    <i class="fa fa-chevron-right fa-fw"></i>
+    <i class="fa fa-chevron-right fa-fw"><span class="screen-reader-text">Next post</span></i>
     </li>
     {% else %}
 
@@ -91,7 +91,7 @@
                     <li>
                     <a class="desktop" href="{{post_three.url}}">{{post_three.title}} </a>
                     <a class="mobile" href="{{page.next["url"]}}">next</a>
-                    <i class="fa fa-chevron-right fa-fw"></i>
+                    <i class="fa fa-chevron-right fa-fw"><span class="screen-reader-text">Next post</span></i>
                     </li>
                     {% endif %}
                 {% endif %}

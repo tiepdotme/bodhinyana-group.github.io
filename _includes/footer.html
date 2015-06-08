@@ -1,8 +1,8 @@
 <footer>
 {% include community.html %}
-<ul class="footer-links">
+<ul class="footer-links" role="contentinfo">
 <li>
-    <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">
+    <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/" aria-label="Creative Commons license" role="link">
         <svg xmlns="http://www.w3.org/2000/svg" version="1.1" x="0" y="0" width="20" height="20" viewBox="0 0 64 64" enable-background="new 0 0 64 64" xml:space="preserve">
             <title>Some text here</title>
             <circle fill="#F8F2F0" cx="32.3" cy="32" r="28.8" />
@@ -38,7 +38,7 @@
     {% for page in site.pages %}{% if page.footer %}
     <a href="{{ page.url | prepend: site.baseurl }}"> {{ page.title }}</a> {% endif %} {% endfor %}
 </li>
- <li> <a href="{{ site.baseurl | append: "/humans.txt" }}"><img src="http://humanstxt.org/img/oficial-logos/humanstxt-isolated-blank.gif" alt="humans.txt logo"></a> </li>
+ <li> <a href="{{ site.baseurl | append: "/humans.txt" }}"><img src="http://humanstxt.org/img/oficial-logos/humanstxt-isolated-blank.gif" alt="humans.txt"></a> </li>
  <li> <a href="{{ site.baseurl | append: "/#contact-info" }}">Contact us</a></li>
 </ul>
 {% include schema-org.html %}

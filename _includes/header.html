@@ -1,10 +1,10 @@
-<header id="site-header">
+<header id="site-header" role="banner">
     <a href="{{site.url}}" id="site-name">Bodhinyana Group</a>
       {% include search.html %}
     <nav id="site-nav">
-        <a href="#" class="menu-icon">Menu <i class="fa fa-bars fa-fw"></i>
+        <a href="#" class="menu-icon" role="navigation">Menu <i class="fa fa-bars fa-fw"></i>
         </a>
-        <div class="trigger">
+        <div class="trigger" role="navigation" aria-label="to main pages within the site,">
             {% assign pages = site.pages | sort: "name" %}
             {% for page in pages %}
                 {% if page.nav_bar %}

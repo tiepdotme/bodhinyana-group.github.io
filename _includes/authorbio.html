@@ -1,7 +1,7 @@
-<aside class="{{include.class}}">
+<aside class="{{include.class}}" role="complementary" aria-label="author biography">
     <h2>{{ leader.name }}</h2>
     {% if leader.email %}
-    <a href="mailto:{{ leader.email }}" class="leader-social"><i class="fa fa-fw fa-envelope-o fa-2x"></i></a>
+    <a href="mailto:{{ leader.email }}" class="leader-social" aria-label="email {{leader.name}}"><i class="fa fa-fw fa-envelope-o fa-2x"></i></a>
     {% endif %}
     {% if leader.twitter %}
     <a href="http://twitter.com/{{ leader.twitter }}" class="leader-social" target="_blank"><i class="fa fa-fw fa-twitter fa-2x"></i></a>
@@ -25,7 +25,7 @@
     {% endif %}
 
     <p>{% if leader.avatar %} {% if leader.avatar contains 'http' %}
-        <img src="{{ leader.avatar }}" alt="{{ leader.name }} bio photo"> {% else %}
+        <img src="{{ leader.avatar }}" alt="photo of {{ leader.name }}"> {% else %}
         <img src="{{ site.baseurl }}/assets/{{ leader.avatar }}" alt="{{ leader.name }} bio photo"> {% endif %} {% endif %}{{ leader.bio }}</p>
 
 </aside>

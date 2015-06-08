@@ -1,4 +1,8 @@
-<section {% if include.class %}class="{{include.class}}"{% endif %}>
+<section
+{% if include.class %}class="{{include.class}}"{% endif %}
+{% if include.role %}role="{{include.role}}"{% endif %}
+{% if include.aria-label %}aria-label="{{include.aria-label}}"{% endif %}
+>
 
 <h2>How do I get to the Bodhinyana Hall?</h2>
 

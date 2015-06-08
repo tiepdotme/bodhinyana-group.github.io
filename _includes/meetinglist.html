@@ -1,6 +1,6 @@
 <section class="meetings-list">
 <h1>{{include.title}}</h1>
-<ul>
+<ul {% if include.role %}role="{{include.role}}"{% endif %}{% if include.aria-label %}aria-label="{{include.aria-label}}"{% endif %}>
     {% for post in site.posts reversed limit:8 %}
     {% if post.date >= site.time %}
     <li id="{{post.date | date_to_rfc822 }}">

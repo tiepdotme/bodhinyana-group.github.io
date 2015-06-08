@@ -1,4 +1,4 @@
-<section class="recent-readings">
+<section class="recent-readings" role="region" aria-label="four of the most recent readings presented to the group">
 <div class="container">
   {% if include.title %}
   <h2> {{include.title}}</h2> {% endif %}
@@ -30,7 +30,7 @@
       {% endif %}
       {% endfor %}
   </ul>
-  <a id="all-readings" href="{{"/readings/" | prepend: site.baseurl}}">all readings<i class="fa fa-chevron-right fa-fw"></i></a>
+  <a id="all-readings" href="{{"/readings/" | prepend: site.baseurl}}">all readings<i class="fa fa-chevron-right fa-fw" aria-hidden="true"></i></a>
   </div>
 </section>
 

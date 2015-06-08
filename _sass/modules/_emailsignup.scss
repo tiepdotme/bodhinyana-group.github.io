@@ -44,3 +44,9 @@
     padding-left: 0;
   }
 }
+
+.screen-reader-text{
+    position: absolute;
+    left: -9999px;
+    top: 0;
+}
