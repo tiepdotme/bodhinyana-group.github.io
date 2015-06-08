@@ -5,6 +5,8 @@ permalink: /faq/
 sitemap: yes
 nav_bar: yes
 redirect_from: /contactus.html
+reading_snippet: Find out about the Group, including details for newcomers and driving directions for getting to the Bodhinyana Hall at Amaravati Buddhist Monastery.
+
 ---
 
 {% include directions.html %}

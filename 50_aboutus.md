@@ -5,6 +5,7 @@ permalink: /aboutus/
 sitemap: yes
 nav_bar: yes
 redirect_from: /aboutus.html
+reading_snippet: The Bodhinyana Group was established around 20 years ago with the aims of encouraging friendship and providing a welcoming and supportive environment to people interested in finding out about Buddhism.
 ---
 
 <img src="/assets/med-hall.jpg" alt="Bodhinyana Hall">

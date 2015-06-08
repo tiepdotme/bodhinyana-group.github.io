@@ -17,7 +17,7 @@ layout: default
             {% endif %}
         </header>
         {% if page.content contains " " %}
-        <article class="post-content">
+        <article class="post-content" role="article">
             {% if page.reading_author %}
             <h5 class="reading-author"> by {% if page.reading_webpage %}
             <a href="{{page.reading_webpage}}">{{page.reading_author}}</a>
