@@ -1,5 +1,6 @@
 ---
 layout: post
-title: Theme to be confirmed
+title: Watch this space
 date: 2015-07-29 19:30:00
+leader: Simon 
 ---
