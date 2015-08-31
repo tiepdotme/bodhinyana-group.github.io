@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Opinions
+title: Opinions - Chris Ward
 date: 2015-09-23 19:30:00
 leader: Chris 
 ---
