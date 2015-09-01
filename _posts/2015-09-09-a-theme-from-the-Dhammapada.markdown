@@ -1,6 +1,6 @@
 ---
 layout: post
-title: A theme from the Dhammapada - leader to be confirmed
+title: Mindfulness is the path to the deathless - Dhammapada v21
 date: 2015-09-09 19:30:00
-leader: (put space at end)
+leader: Nevyn 
 ---
