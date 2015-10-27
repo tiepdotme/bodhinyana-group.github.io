@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Theme to be confirmed
+title: Verses from the Dhammapada
 date: 2015-11-04 19:30:00
 leader: TBC 
 ---
