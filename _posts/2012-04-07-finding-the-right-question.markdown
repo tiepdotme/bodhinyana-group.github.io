@@ -14,7 +14,7 @@ reading_snippet: Does your happiness depend on having problems?
 
 
 
-##What is the problem?##
+## What is the problem? ##
 
 Birth is a problem, aging is a problem, dying is a problem.
 Not getting what you want is a problem. Having what you don’t want is a problem. Not attaining one's ambitions is a problem.
@@ -34,7 +34,7 @@ Wanting to solve problems is just another desire. The best bit is when you know 
 
 Sorting out problems can happen two ways &ndash; one is with greed, hatred and delusion and one is without. One creates more problems and the other brings them to an end.
 
-##Finding the right question.##
+## Finding the right question. ##
 
 If you take a problem you have &ndash; something relatively trivial is good &ndash; try finding the solution for one minute &ndash; really one minute. Now what did you discover? How realistic was the solution?
 For example - My problem is ... I have too much work to do and I must get it done this morning. The solution which presents itself is to get into a mad panic and start rushing at everything at once to get it all finished.
@@ -44,7 +44,7 @@ What is the right question? For a Buddhist it is ‘who?’ Because what we lear
 
 Look at the examples of problems I gave and you can see the self which is behind them. Now look at your own problems &ndash; can you see the same thing?
 
-##So ultimately there are no problems. Yet our lives are full of them.##
+## So ultimately there are no problems. Yet our lives are full of them. ##
 
 Knowing what we need to do now, and doing it, is the art of living.
 Problems arise because we don’t know how to act with wisdom when we need to. Because we didn’t know how to act skilfully in the past, we live in difficult relationships and difficult situations in the present.
