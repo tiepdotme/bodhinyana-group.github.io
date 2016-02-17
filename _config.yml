@@ -9,6 +9,7 @@ gems: [susy, jekyll-redirect-from]
 # Build settings
 highlighter: rouge
 markdown: kramdown
+future: true
 permalink: pretty
 sass:
     sass_dir: _sass
