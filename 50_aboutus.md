@@ -11,11 +11,11 @@ reading_snippet: The Bodhinyana Group was established around 20 years ago with t
 <img src="/assets/med-hall.jpg" alt="Bodhinyana Hall">
 Many of the people who attend the group live near [Amaravati Buddhist Monastery](http://www.amaravati.org/), although some travel from further away. Some are committed lay Buddhists, and some are new to Buddhism. There is a core of people who attend regularly and some are only able to visit us occasionally. Sometimes guests and workers at the monastery also join the group. There are usually around twelve people. 
 
-##Leading a meeting##
+## Leading a meeting ##
 
 Those who attend regularly are invited to lead, but not pressed into it – it is for them to decide. But leading an evening is an enriching experience, both for the leader and those who listen. It is an opportunity for the leader to consider how they apply Buddhism in their lives, and for the listener to discover what may be a new perspective. Between January and March of 2013, eight different attendees led our evening discussions. 
 
-##The purpose of the group##
+## The purpose of the group ##
 
 The Bodhinyana Group was established around 20 years ago with the aims of: 
 

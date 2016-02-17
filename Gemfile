@@ -3,5 +3,6 @@ gem 'jekyll'
 gem 'susy'
 gem 'font-awesome-sass'
 gem 'jekyll-redirect-from'
+gem 'github-pages'
 
 

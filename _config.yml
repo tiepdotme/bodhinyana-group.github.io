@@ -7,6 +7,7 @@ url: "http://www.bodhinyanagroup.org.uk" # the base hostname & protocol for your
 #paginate: 3
 gems: [susy, jekyll-redirect-from]
 # Build settings
+highlighter: rouge
 markdown: kramdown
 permalink: pretty
 sass:
