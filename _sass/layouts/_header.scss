@@ -41,13 +41,16 @@ position: absolute;
 bottom: em(-45px);
 padding-left: fluid(105px);
 @media only screen and (max-width: 1000px) {
-    width: 49%;
+    width: 51%;
     bottom: em(-65px);
 }
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 950px) {
     width: inherit;
     @include font-size(h5);
     padding-right: fluid(105px);
+}
+@media only screen and (max-width: 450px) {
+    bottom: em(-72px);
 }
 }
 
