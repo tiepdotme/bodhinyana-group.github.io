@@ -1,6 +1,6 @@
 ---
 layout: post
-title: A few notes about Buddhism
+title: Everything is teaching us
 date: 2016-06-01 19:30:00
 leader: Martin
 meeting_blurb: Ajahn Chah's book <a href="https://www.abhayagiri.org/books/everything-is-teaching-us"><i>Everything is Teaching Us</i></a> is available to read online at no charge.
