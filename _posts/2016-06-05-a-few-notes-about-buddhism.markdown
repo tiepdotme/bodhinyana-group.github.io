@@ -11,7 +11,7 @@ reading_snippet: Learning to control the mind through meditation is important so
 
 ## Is Buddhism a religion? ##
 
-Buddhism doesn’t have an opinion about the big questions of life, like ‘What is the meaning of life?’ or ‘What was the origin of the world?’ or ‘Is there a God? or ‘What is the nature of God?’. From a Buddhist perspective it isn’t a profitable way of thinking. Views and opinions about such things simply lead to argument, conflict and even wars.
+Buddhism doesn’t have an opinion about the big questions of life, like ‘What is the meaning of life?’ or ‘What was the origin of the world?’ or ‘Is there a God? or ‘What is the nature of God?’ From a Buddhist perspective it isn’t a profitable way of thinking. Views and opinions about such things simply lead to argument, conflict and even wars.
 
 Buddhism doesn’t fit the ‘Western’ definition of a religion as it doesn’t have an opinion on a creator God. Some call it a philosophy as it focusses on understanding our experience and especially the mind, but it not simply a theory about life. The goal of Buddhism is to transform our life.
 
