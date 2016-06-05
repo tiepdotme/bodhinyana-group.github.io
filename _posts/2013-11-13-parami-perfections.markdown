@@ -3,7 +3,7 @@ layout: post
 title: <i>Parami</i> &ndash; perfections
 reading_author: Ajahn Sumedho
 leader: Martin
-reading_webpage: http://forestsangha.org/assets/calendar/2011/forest-sangha-calendar-2011.pdf
+reading_webpage: https://forestsangha.org/system/resources/W1siZiIsIjIwMTUvMDgvMDkvN3kzY2R1dzRucF9mb3Jlc3Rfc2FuZ2hhX2NhbGVuZGFyXzIwMTEucGRmIl1d/forest-sangha-calendar-2011.pdf?sha=0763fcaaa6b44433
 reading_snippet: Parami means perfection or completeness of certain virtues which cultivate a way of purification while reaching a goal of enlightenment.
 date:   2013-11-13 15:50:47
 allow_comments: yes
@@ -54,7 +54,7 @@ Metta is kindness with awareness. It doesn't mean we resign ourselves to mediocr
 
 When we're mindful, creativity is spontaneous &ndash; there's no attachment to ideas and memories of self. There's no one who loves or is loved; there's no personal being that is created. Being mindful in this way, we find the real expression of kindness, compassion, joy and equanimity that is always fresh, always kind, patient and ever-forgiving of oneself and others.
 
-Ajahn Sumedho - From the [Amaravati calendar 2011](http://forestsangha.org/assets/calendar/2011/forest-sangha-calendar-2011.pdf)
+Ajahn Sumedho - From the [Amaravati calendar 2011](https://forestsangha.org/system/resources/W1siZiIsIjIwMTUvMDgvMDkvN3kzY2R1dzRucF9mb3Jlc3Rfc2FuZ2hhX2NhbGVuZGFyXzIwMTEucGRmIl1d/forest-sangha-calendar-2011.pdf?sha=0763fcaaa6b44433)
 
 
 

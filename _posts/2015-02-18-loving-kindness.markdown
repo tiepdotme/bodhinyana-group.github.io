@@ -3,15 +3,15 @@ layout: post
 title: Loving kindness
 date: 2015-02-18 19:30:00
 leader: Symon
-meeting_blurb: 
-keep_blurb_after_meeting: no 
-reading_author: 
+meeting_blurb:
+keep_blurb_after_meeting: no
+reading_author:
 allow_comments: yes
 reading_snippet: Wishing &ndash; In gladness and in safety, May all beings be at ease.
 reading_url: http://www.dhammatalks.net/Books15/Abhayagiri-Buddhist-Monastery_ChantingBook_rev2010.pdf
 ---
 
-##The Buddha's words on Loving-kindness##
+## The Buddha's words on Loving-kindness ##
 
 (Karaniya Metta Sutta)
 
