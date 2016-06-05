@@ -3,6 +3,10 @@ layout: post
 title: A few notes about Buddhism
 date: 2016-06-01 19:30:00
 leader: Martin
+keep_blurb_after_meeting: no
+reading_author: Martin Evans
+allow_comments: yes
+reading_snippet: Learning to control the mind through meditation is important so that we can create some space between thought and action.
 ---
 
 ## Is Buddhism a religion? ##
