@@ -1,6 +1,6 @@
 ---
 layout: post
-title: On a theme to be decided
+title: Skillful habits
 date: 2016-07-27 19:30:00
 leader: Mel 
 ---
