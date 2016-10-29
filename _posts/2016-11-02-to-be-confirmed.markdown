@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Theme to be confirmed
+title: Is there a best time to meditate?
 date: 2016-11-02 19:30:00
-leader: Simon 
+leader: Pat 
 ---
