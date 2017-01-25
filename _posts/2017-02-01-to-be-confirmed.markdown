@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Theme to be confirmed
+title: Taking responsibility
 date: 2017-02-01 19:30:00
-leader: Symon 
+leader: Simon 
 ---
