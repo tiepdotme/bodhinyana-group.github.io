@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Theme to be confirmed
+title: Practice in relationships
 date: 2017-02-08 19:30:00
 leader: Nick 
 ---
