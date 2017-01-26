@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Why practice a spiritual path?
+title: Theme to be confirmed
 date: 2017-02-08 19:30:00
-leader: Symon 
+leader: Nick 
 ---
