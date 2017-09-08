@@ -73,4 +73,7 @@ Liam:
  name: Liam FitzPatrick
 
 Blank:
- name: * 
+ name: 
+ 
+*:
+ name: *
