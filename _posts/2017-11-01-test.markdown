@@ -1,6 +1,0 @@
----
-layout: post
-title: test 
-date: 2017-11-11 19:30:00
-leader: Blank
----
