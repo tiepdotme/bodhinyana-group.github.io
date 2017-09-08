@@ -10,11 +10,13 @@
         {% else %}
         	{{ post.title }}
         {% endif %}
-        &ndash;
-		{% if post.leader %}
+		{% if post.leader and post.leader != "None" %}  
 		{% assign leader = site.data.leaders[post.leader] %}
+        &ndash;
         {{leader.name}}
+        {% elseif post.leader == "None" %}
 		{% else %}
+        &ndash;    
 		<a href="{{ site.baseurl | append: "/#contact-info" }}">Volunteer to lead this meeting</a>
 		{% endif %}
 
