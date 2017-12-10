@@ -10,3 +10,5 @@ reading_snippet: I encourage you to try to understand *dukkha* &ndash; to really
 reading_author: Ajahn Sumedho
 reading_webpage: http://forestsanghapublications.org/viewBook.php?id=32&ref=deb
 ---
+
+https://www.abhayagiri.org/books/everything-is-teaching-us

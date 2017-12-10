@@ -2,7 +2,7 @@
 {% if post.date >= site.time %}
 <script type="application/ld+json">
 {
-"@context"  : "http://schema.org",
+"@context"  : "https://schema.org",
     "@type"     : "Event",
     "name"      : "{{ post.title }}",
     "duration"  : "1H50M",
@@ -17,8 +17,8 @@
         "postalCode"        : "HP1 3BZ"
     },
     "sameAs"    : [
-        "http://www.amaravati.org",
-        "http://en.wikipedia.org/wiki/Amaravati_Buddhist_Monastery"
+        "https://www.amaravati.org",
+        "https://en.wikipedia.org/wiki/Amaravati_Buddhist_Monastery"
         ]
 }
 {% if post.meeting_blurb %}
@@ -33,7 +33,7 @@
     "name" : "{{leader.name}}"
 {% if leader.avatar %}
 ,
-{% if leader.avatar contains 'http' %}
+{% if leader.avatar contains 'https' %}
     "image" : "{{ leader.avatar }}"
 {% else %}
     "image" : "{{ site.baseurl }}/assets/{{ leader.avatar }}"
