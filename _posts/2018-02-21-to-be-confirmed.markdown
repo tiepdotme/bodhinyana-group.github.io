@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Locking ourselves into our self-identity, and how not to. 
+title: A long walk to Jerusalem - in the Retreat Centre Shrine Room up the ramp beside the Bodhinyana Hall
 date: 2018-02-21 19:30:00
-leader: Martin 
+leader: Tim 
 ---
