@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Theme to be confirmed
-date: 2018-02-28 19:30:00
+title: The energy of life
+date: 2018-03-21 19:30:00
 leader: Susan 
 ---
