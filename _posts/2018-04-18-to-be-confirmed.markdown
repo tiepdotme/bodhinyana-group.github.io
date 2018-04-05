@@ -1,6 +1,6 @@
 ---
 layout: post
-title: The wisdom of no escape and the path of loving kindness
+title: The Middle Way - taking responsibility
 date: 2018-04-18 19:30:00
-leader: Sara 
+leader: Pawel  
 ---
