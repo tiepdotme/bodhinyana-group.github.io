@@ -1,6 +1,6 @@
 ---
 layout: post
-title: What are your New Year resolutions? 
+title: Resolutions - making and breaking them. 
 date: 2019-01-02 19:30:00
 leader: Martin 
 ---
