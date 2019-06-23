@@ -5,13 +5,13 @@
   "version": "0.1.0",
   "description": "Buddhist meditation group outside London. Events schedule and readings.",
   "devDependencies": {
-    "grunt": "~1.0.3",
+    "grunt": "^1.0.4",
     "grunt-contrib-clean": "^2.0.0",
     "grunt-contrib-concat": "^1.0.1",
-    "grunt-contrib-htmlmin": "^3.0.0",
-    "grunt-contrib-imagemin": "^2.0.1",
-    "grunt-contrib-jshint": "^2.0.0",
-    "grunt-contrib-uglify": "^4.0.0",
+    "grunt-contrib-htmlmin": "^3.1.0",
+    "grunt-contrib-imagemin": "^3.1.0",
+    "grunt-contrib-jshint": "^2.1.0",
+    "grunt-contrib-uglify": "^4.0.1",
     "grunt-jekyll": "^0.4.7",
     "grunt-svgmin": "^5.0.0"
   }
