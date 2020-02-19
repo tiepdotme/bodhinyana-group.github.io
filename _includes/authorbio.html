@@ -1,15 +1,15 @@
 <aside class="{{include.class}}" role="complementary" aria-label="author biography">
     <h2>{{ leader.name }}</h2>
     {% if leader.email %}
-    <a href="mailto:{{ leader.email }}" class="leader-social" aria-label="email {{leader.name}}"><i class="fa fa-fw fa-envelope-o fa-2x"></i></a>
+    <a href="mailto:{{ leader.email }}" class="leader-social" aria-label="email {{leader.name}}"><i class="far fa-fw fa-envelope-open fa-2x"></i></a>
     {% endif %}
     {% if leader.twitter %}
-    <a href="http://twitter.com/{{ leader.twitter }}" class="leader-social" target="_blank"><i class="fa fa-fw fa-twitter fa-2x"></i></a>
+    <a href="http://twitter.com/{{ leader.twitter }}" class="leader-social" target="_blank"><i class="fab fa-fw fa-twitter fa-2x"></i></a>
     {% endif %}
     {% if leader.facebook %}
-    <a href="http://facebook.com/{{ leader.facebook }}" class="leader-social" target="_blank"><i class="fa fa-fw fa-facebook-square fa-2x"></i></a>
+    <a href="http://facebook.com/{{ leader.facebook }}" class="leader-social" target="_blank"><i class="fab fa-fw fa-facebook-square fa-2x"></i></a>
     {% endif %}
-    {% if leader.googleplus %}<a href="http://plus.google.com/+{{ leader.googleplus }}" class="leader-social" target="_blank"><i class="fa fa-fw fa-google-plus-square fa-2x"></i></a>
+    {% if leader.googleplus %}<a href="http://plus.google.com/+{{ leader.googleplus }}" class="leader-social" target="_blank"><i class="fab fa-fw fa-google-plus-square fa-2x"></i></a>
     {% endif %}
     {% if leader.linkedin %}<a href="http://linkedin.com/in/{{ leader.linkedin }}" class="leader-social" target="_blank"><i class="fa fa-fw fa-linkedin-square fa-2x"></i></a>{% endif %}
     {% if leader.instagram %}<a href="http://instagram.com/{{ leader.instagram }}" class="leader-social" target="_blank"><i class="fa fa-fw fa-instagram fa-2x"></i></a>
