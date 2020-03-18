@@ -35,6 +35,6 @@ If your mind is very busy, meditation can help us calm down. If it doesn’t see
 
 Just taking a statement like this and reflecting on it is a meditation practice. However it feels, good or bad, better or worse, we might reflect, ‘it’s just like this’ and feel a sense of relief.
 
-Buddhism isn’t an unrealistic navel-gazing religion where we just have to think peaceful thoughts to escape from suffering. The Buddha taught that to free ourselves from suffering we should investigate suffering, how it arises and how it can be brought to an end. What better opportunity than now, when the wheels seem to have fallen off the world, to investigate suffering, how it arises and how it ceases.
+What better opportunity than now, when the wheels seem to have fallen off the world, to understand suffering and how we create it, how it ceases, and let the path which leads to the end of suffering become clear.
 
 Martin Evans - 17 March 2020
