@@ -1,9 +1,9 @@
-–--
+---
 layout: post
 title: To panic or not to panic
-date: 2020–03–20 19:30:00
+date: 2020–03–19 19:30:00
 leader: Martin
-–--
+---
 
 Last Friday I went to see a production of Dad’s Army at our local theatre. 'Don’t panic Mr Mainwaring’ seems quite appropriate in the current crisis.
 
@@ -31,9 +31,9 @@ When we don’t see *Dukkha* clearly we believe that the way it feels is the way
 
 With mindfulness we have the chance to see things clearly. We can step back, watch it as a process – and see that there is no suffering here, but that which we create. And when we don’t create suffering, we don’t create a problem we have to fix, or run away from. We can act with wisdom.
 
-![Scarborough lilly](/assets/scarborough-lilly.png) We don’t have to create a problem in order to act. What needs to be done can still be done. We can keep ourselves safe. We can look out for others.
+We don’t have to create a problem in order to act. What needs to be done can still be done. We can keep ourselves safe. We can look out for others.
 
-I have a beautiful Scarborough Lilly which has just come into bloom. It doesn’t know there’s a crisis – it has never heard of coronavirus. And there is a second bloom coming. I don’t need to worry about it – just keep watering it – that’s all it takes.
+![Scarborough lilly](/assets/scarborough-lilly.png) I have a beautiful Scarborough Lilly which has just come into bloom. It doesn’t know there’s a crisis – it has never heard of coronavirus. And there is a second bloom coming. I don’t need to worry about it – just keep watering it – that’s all it takes.
 
 I could worry, 'What if I’m ill and can’t get up to water it... or... or...’, or I could just enjoy it in the present moment – watch it’s beauty unfold as it follows its own nature. See what it has to teach me. Really notice how it changes day by day.
 
