@@ -1,7 +1,7 @@
 ---
 layout: post
 title: To panic or not to panic
-date: 2020–03–19 19:30:00
+date: 2020-03-19 19:30:00
 leader: Martin
 ---
 
