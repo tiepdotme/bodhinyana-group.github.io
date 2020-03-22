@@ -5,8 +5,8 @@
   <ul class="recent-readings col col3">
       {% for post in site.posts %}
       {% if post.content contains " " and post.date <= site.time %}
-      {% capture count %}{{ count | plus: '1' }}{% endcapture %}
-      {% if count == '1' or count == '2' %}
+      {% capture countone %}{{ countone | plus: '1' }}{% endcapture %}
+        {% if countone == '1' or countone == '2' %}
     <li>
       <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
         {% if post.reading_author %}<p>{{ post.reading_author }}</p>{% endif %}
