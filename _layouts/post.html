@@ -27,8 +27,7 @@ layout: default
         </article>
         {% endif %}
         {% include social.html %}
-        <!--{% if page.allow_comments %}{% include disqus.html %}{% endif %}-->
-        {% include disqus.html %}
+        {% if page.allow_comments %}{% include disqus.html %}{% endif %}
         {% if leader.bio %}{% include authorbio.html class="leader-bio" %}{% endif %}
     </div>
 </div>

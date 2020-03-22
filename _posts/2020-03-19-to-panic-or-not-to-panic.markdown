@@ -3,6 +3,9 @@ layout: post
 title: To panic or not to panic
 date: 2020-03-19 19:30:00
 leader: Martin
+reading_author: Martin Evans
+allow_comments: yes
+reading_snippet: With mindfulness we have the chance to see things clearly. We can step back, watch it as a process – and see that there is no suffering here, but that which we create.
 ---
 
 Last Friday I went to see a production of Dad’s Army at our local theatre. 'Don’t panic Mr Mainwaring’ seems quite appropriate in the current crisis.
