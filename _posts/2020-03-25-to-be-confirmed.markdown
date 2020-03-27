@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Meetings cancelled until further notice
-date: 2020-03-25 19:30:00
-leader: Martin 
+title: To be confirmed
+date: 2020-04-01 19:30:00
+leader: Martin
 ---
