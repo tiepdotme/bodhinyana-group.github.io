@@ -23,7 +23,7 @@ He described his teachings as going against the stream. We would much rather liv
 
 ## Calling it by its true name ##
 
-To understand things, it helps to name them. But the names we feel comfortable with may not be their true names. This is true of the Buddha’s first noble truth. A lot of different translations abound for *Dukkha* <sup><a href="#fn:1" class="footnote">1</a></sup>; stress, unsatisfactoriness and suffering are most commonly used.
+To understand things, it helps to name them. But the names we feel comfortable with may not be their true names. This is true of the Buddha’s first noble truth. A lot of different translations abound for *Dukkha* <sup id="fnref:1"> <a href="#fn:1 class="footnote">1</a></sup>; stress, unsatisfactoriness and suffering are most commonly used.
 
 Early Western translators used suffering, but this led to people dismissing Buddhism as negative. The Buddha taught that everything is suffering is still a common misunderstanding. So alternative translations like stress or unsatisfactoriness came into vogue to correct the misunderstanding that the Buddha denied that happiness exists, that our experience is just one of continual suffering.
 
@@ -98,7 +98,7 @@ Martin Evans, 1 April 2020
     <li id="fn:1">
         <p> 1. Understanding <i>Dukkha</i> it isn’t about finding the perfect translation. Look at the range of what <i>Dukkha</i> is:
 Disturbance, irritation, dejection, worry, despair, fear, dread, anguish, anxiety; vul-nerability, injury, inability, inferiority; sickness, aging, decay of body and faculties, senility; pain/pleasure; excitement/boredom; deprivation/excess; desire/frustration, suppression; longing/aimlessness; hope/hopelessness; effort, activity, striv-ing/repression; loss, want, insufficiency/satiety; love/lovelessness, friendlessness; dislike, aversion/attraction; parenthood/childlessness; submission/rebellion; deci-sion/indecisiveness, vacillation, uncertainty. </p>
-<p> — Francis Story - Suffering, Vol. II of The Three Basic Facts of Existence (Kandy: Buddhist Publication Society, 1983) <a href="http://www.bps.lk/olib/wh/wh191_Burton-etal_Three-Basic-Facts-of-Existance--II-Dukkha.pdf">http://www.bps.lk/olib/wh/wh191_Burton-etal_Three-Basic-Facts-of-Existance--II-Dukkha.pdf</a><a href="#fnref:1" class="reversefootnote">↩</a></p>
+<p> — Francis Story - Suffering, Vol. II of The Three Basic Facts of Existence (Kandy: Buddhist Publication Society, 1983) <a href="http://www.bps.lk/olib/wh/wh191_Burton-etal_Three-Basic-Facts-of-Existance--II-Dukkha.pdf">http://www.bps.lk/olib/wh/wh191_Burton-etal_Three-Basic-Facts-of-Existance--II-Dukkha.pdf</a> <a href="#fnref:1" class="reversefootnote">↩</a></p>
 </li>
 </ul>
 </div>
