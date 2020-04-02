@@ -1,7 +1,7 @@
 ---
 layout: post
 title: How well am I spending my time?
-date: 2020-04-01 19:30:00
+date: 2020-04-08 19:30:00
 leader: Martin
 reading_author: Martin Evans
 allow_comments: yes
