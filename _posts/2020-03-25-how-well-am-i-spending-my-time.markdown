@@ -3,6 +3,9 @@ layout: post
 title: How well am I spending my time?
 date: 2020-04-01 19:30:00
 leader: Martin
+reading_author: Martin Evans
+allow_comments: yes
+reading_snippet:  We put so much energy into trying to create happiness – trying to make ourselves happy and trying to make other people happy - it’s so stressful – it’s *Dukkha*. But we don’t know anything else – we think we have failed when we’re not happy. And then we have to block out the feeling of failure by escaping into sleep or drink or drugs – anything, but turn towards reality.
 ---
 
 Staying at home and not being able to see our families and friends, we are fortunate to be able to keep in touch, not only by speaking, but also through video. It is surprising how much closer we feel to people when we can see them and the world they are living in.
@@ -23,16 +26,20 @@ He described his teachings as going against the stream. We would much rather liv
 
 ## Calling it by its true name ##
 
-To understand things, it helps to name them. But the names we feel comfortable with may not be their true names. This is true of the Buddha’s first noble truth. A lot of different translations abound for *Dukkha* <sup id="fnref:1"> <a href="#fn:1 class="footnote">1</a></sup>; stress, unsatisfactoriness and suffering are most commonly used.
+To understand things, it helps to name them. But the names we feel comfortable with may not be their true names. This is true of the Buddha’s first noble truth. A lot of different translations abound for *Dukkha* <sup id="fnref:1"> <a href="#fn:1" class="footnote">1</a></sup>; stress, unsatisfactoriness and suffering are most commonly used.
 
 Early Western translators used suffering, but this led to people dismissing Buddhism as negative. The Buddha taught that everything is suffering is still a common misunderstanding. So alternative translations like stress or unsatisfactoriness came into vogue to correct the misunderstanding that the Buddha denied that happiness exists, that our experience is just one of continual suffering.
 
 But avoiding the use of the word ‘suffering’, aren’t we just being polite? Like, not using use the word ‘toilet’? It seems people can’t go to the toilet these days, they have to go to the bathroom, or take a comfort break.
 
 The Buddha taught us that in order to be truly happy, we need to understand suffering. We can’t stop suffering by chasing happiness, because happiness doesn’t last – chasing happiness is like running on a treadmill, it’s exhausting – and we never become truly happy. We need to understand how we create suffering and stop doing it. When we free ourselves from suffering, what fills its place? It’s not the kind of happiness which comes from grasping, but from letting go. He called this teaching the Four Noble Truths.
+
 1.Suffering is to be understood
+
 2.The origin of suffering, which is craving, is to be abandoned. Which leads to
+
 3.The cessation of suffering, which is to be realised. How? Through developing
+
 4.The Eight Fold Path - which he called the middle way.
 
 (The best book I have come across about this is <a href="https://www.amaravati.org/dhamma-books/the-four-noble-truths/">*The Four Noble Truths*</a>, written by Ajahn Sumedho.)
