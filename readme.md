@@ -3,7 +3,7 @@ This is the back-end of the Bodhinyana Group website - a website built with Jeky
 
 We are a meditation group that meets at Amaravati Buddhist Monastery in Hemel Hempstead, UK.
 
-#Instructions for adding a post#
+# Instructions for adding a post #
 
 In the list of files above, go into the _posts folder. 
 

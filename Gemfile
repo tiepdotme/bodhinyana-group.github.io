@@ -4,7 +4,7 @@ gem 'susy'
 gem 'font-awesome-sass'
 gem 'jekyll-redirect-from'
 gem 'github-pages'
-gem 'nokogiri', "~>1.8"
+gem "nokogiri", ">= 1.10.4"
 
 
 # Added at 2018-01-27 22:08:49 +0000 by spud:
