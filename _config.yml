@@ -3,7 +3,7 @@ title: Bodhinaya Meditation Group, Amaravati Buddhist Monastery, Hemel Hempstead
 email: helencalderon@gmail.com
 description: We are a group of lay Buddhists and people interested in Buddhism who meet to meditate and discuss Buddhist practice at Amaravati Buddhist Monastery on Wednesday evenings at 7.30pm to 9.30pm. We welcome anyone who is interested in Buddhism, including those who are new to Buddhism or new to Amaravati. Our discussions focus on understanding the Buddhist teachings and how we can apply them in our lives. We meet in the Bodhinyana Hall.
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "https://www.bodhinyanagroup.org.uk" # the base hostname & protocol for your site
+url: "https://tiep.page" # the base hostname & protocol for your site
 #paginate: 3
 plugins: [jekyll-redirect-from]
 # Build settings
